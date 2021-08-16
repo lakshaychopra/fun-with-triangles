@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --pewter-blue: #7C9EB2;
+    --celadon: #98DFAF;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navigation {
+    background-color: var(--pewter-blue);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.container-section {
+    width:600px;
+    display: block;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--pewter-blue);
+}
+
+.container-section label {
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin:1rem;
+    color: var(--pewter-blue);
+}
+
+.container-section input {
+    display: block;
+    margin: auto;
+    width: 60%;
+    border: 2px solid var(--celadon);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+
+.container-section button {
+    text-decoration: none;
+    border: 1px solid var(--pewter-blue);
+    background-color: var(--pewter-blue);
+    margin: 2rem auto;
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.container-section #output {
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--celadon);
+}
+
+.quiz-form {
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+.quiz-form button {
+    text-decoration: none;
+    border: 1px solid var(--pewter-blue);
+    background-color: var(--pewter-blue);
+    margin: 2rem auto;
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.question-container {
+    width: 600px;
+    border: 1px solid var(--celadon);
+    margin: 2rem auto;
+}
+
+.question-container p {
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin:1rem;
+    color: var(--pewter-blue);
+}
+
+.question-container label {
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: auto;
+    color: var(--pewter-blue);
+}
+
+.footer {
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--pewter-blue);
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: var(--pewter-blue);
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}

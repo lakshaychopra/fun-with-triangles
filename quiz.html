@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun With Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Check Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/hypontenuse.html">Hyponteuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/area.html">Area of Triangle</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="heading"><h1>Quiz on triangles</h1></div>
+        <form class="quiz-form">
+            <div class="question-container">
+                <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                <label><input type="radio" name="question-1" value="45°">45°</label>
+                <label><input type="radio" name="question-1" value="60°">60°</label>
+                <label><input type="radio" name="question-1" value="90°">90°</label>
+            </div>
+            <div class="question-container">
+                <p>This type of triangle has one 90 degree angle.</p>
+                <label><input type="radio" name="question-2" value="Acute">Acute</label>
+                <label><input type="radio" name="question-2" value="Right">Right</label>
+                <label><input type="radio" name="question-2" value="Obtuse">Obtuse</label>
+            </div>
+            <div class="question-container">
+                <p>A triangle with one angle greater than 90 degrees.</p>
+                <label><input type="radio" name="question-3" value="Equilateral Triangle">Equilateral Triangle</label>
+                <label><input type="radio" name="question-3" value="Obtuse Triangle">Obtuse Triangle</label>
+                <label><input type="radio" name="question-3" value="Isoceles Triangle">Isoceles Triangle</label>
+            </div>
+            <div class="question-container">
+                <p>A triangle with one angle less than 90 degrees.</p>
+                <label><input type="radio" name="question-4" value="Equilateral Triangle">Equilateral Triangle</label>
+                <label><input type="radio" name="question-4" value="Obtuse Triangle">Obtuse Triangle</label>
+                <label><input type="radio" name="question-4" value="Acute Triangle">Acute Triangle</label>
+            </div>
+            <div class="question-container">
+                <p>A triangle having at least two equal sides.</p>
+                <label><input type="radio" name="question-5" value="Issoceles Triangle">Issoceles Triangle</label>
+                <label><input type="radio" name="question-5" value="Obtuse Triangle">Obtuse Triangle</label>
+                <label><input type="radio" name="question-5" value="Acute Triangle">Acute Triangle</label>
+            </div>
+            <div class="question-container">
+                <p>The sum of the measures of all three sides of a triangle.</p>
+                <label><input type="radio" name="question-6" value="Area">Area</label>
+                <label><input type="radio" name="question-6" value="Perimeter">Perimeter</label>
+                <label><input type="radio" name="question-6" value="Diameter">Diameter</label>
+            </div>
+            <div class="question-container">
+                <p>In ΔABC if AB = BC, then :</p>
+                <label><input type="radio" name="question-7" value="∠A = ∠C"> ∠A = ∠C</label>
+                <label><input type="radio" name="question-7" value="∠A < ∠B"> ∠A < ∠B</label>
+                <label><input type="radio" name="question-7" value="∠A = ∠B"> ∠A = ∠B</label>
+            </div>
+        </form>
+        <div class="container-section">
+            <button id="submit">Submit Quiz</button>
+            <h2 id="output"></h2>
+        </div>
+    </section>
+    <footer class="footer">
+        <ul class="social-links link list-non-bullet">
+            <li class="list-item-inline"><a class ="link" href="https://github.com/lakshaychopra">Github</a></li>
+            <li class="list-item-inline"><a class ="link" href="https://www.instagram.com/lakshaychopra28">Instagram</a></li>
+            <li class="list-item-inline"><a class ="link"href="https://www.linkedin.com/in/lakshay-chopra/">LinkedIn</a></li>
+        </ul>
+    </footer>
+    <script src="./scripts/quiz.js"></script>
+</body>
+
+</html>
